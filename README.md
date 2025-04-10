@@ -88,7 +88,7 @@ python Letter_Gui.py
 
 ## 🖼️ Screenshot der GUI
 
-![GUI Screenshot](screenshots/Bild1_neu.png)
+![GUI Screenshot](https://raw.githubusercontent.com/eren-xoxo/Schrifterkennungs-KI/main/screenshots/Bild1.png)
 
 ---
 
