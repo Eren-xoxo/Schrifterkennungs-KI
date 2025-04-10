@@ -88,7 +88,7 @@ python Letter_Gui.py
 
 ## 🖼️ Screenshot der GUI
 
-![GUI Screenshot](screenshots/Bild1.png)
+![GUI Screenshot](screenshots/Bild1.jpg)
 
 ---
 
