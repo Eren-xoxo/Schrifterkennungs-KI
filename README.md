@@ -8,18 +8,21 @@ Dieses Projekt nutzt künstliche Intelligenz, um handgeschriebene **Blockbuchsta
 
 ```
 📦 Schrifterkennungs-KI
-├── dataset/                  # Trainingsdaten (Buchstabenbilder A–Z)
-├── model/                    # Das trainierte Modell (.h5, .keras)
-├── screenshots/              # GUI-Screenshots
-├── gui/                      # Benutzeroberfläche (tkinter)
-│   └── Letter_Gui.py
-├── tools/                    # Hilfsprogramme
-│   ├── Buchstabenunbenner.py
-│   ├── prepare_data.py
-│   ├── TrainNeuronalnetwork.py
-│   └── manual_check.py
-├── musik.mp3                 # Überraschung 😉
-├── requirements.txt          # Benötigte Pakete
+├── a4_raster_Eren_Akman.zip        # Meine Raster-Bilder
+├── Blockbuchstaben.jpeg            # Ausgeschnittener Eingescannter Buchstabenraster
+├── Buchstaben_extrahieren.py       # Extrahiert einzelne Buchstaben aus dem Rasterbild
+├── Buchstabenunbenner.py           # Benennt extrahierte Buchstaben automatisch um
+├── prepare_data.py                 # Wandelt Bilder in NumPy-Daten um
+├── TrainNeuronalnetwork.py         # Trainingsskript mit TensorFlow
+├── manual_check.py                 # Überprüfung + Konfusionsmatrix
+├── save_model.py                   # Speichert Modell als .keras und .h5
+├── Letter_Gui.py                   # GUI mit Zeichnen + Musikfunktion
+├── requirements.txt                # Abhängigkeiten
+├── musik.mp3                       # "harmlose" Audiodatei 😉
+├── images.npy / labels.npy         # Trainingsdaten als NumPy-Dateien
+├── *.h5 / *.keras                  # Trainierte Modelle
+├── letters/ oder BigDataSet/       # Enthält die gelabelten Buchstabenbilder
+├── screenshots/                    # Screenshot der GUI (optional)
 └── README.md
 ```
 
