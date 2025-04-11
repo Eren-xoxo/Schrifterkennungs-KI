@@ -23,6 +23,7 @@ Dieses Projekt nutzt künstliche Intelligenz, um handgeschriebene **Blockbuchsta
 ├── *.h5 / *.keras                  # Trainierte Modelle
 ├── letters/ oder BigDataSet/       # Enthält die gelabelten Buchstabenbilder
 ├── screenshots/                    # Screenshot der GUI (optional)
+├── Arbeitsauftrag_Schrifterkennung.odt # Vorgegebenes Word Dokument
 └── README.md
 ```
 
